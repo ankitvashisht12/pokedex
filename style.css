@@ -15,6 +15,7 @@
 .intro{
     font-family: 'Roboto Mono', monospace;
     font-size: xx-large;
+    text-align: center;
 }
 
 .bottom-footer{
@@ -25,4 +26,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about{
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    margin-top: 50px;
+    margin-left: 2.5%;
+    text-align: center;
+    
 }
