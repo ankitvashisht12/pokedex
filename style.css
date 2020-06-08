@@ -69,14 +69,23 @@
     background-color: #f3f3f3;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    max-width: 100%;
+    
+}
+
 .characters{
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.35);
     overflow: hidden;
     display: flex;
-    max-width: 100%;
-    margin: 12px 15px;
-    position: absolute;
+    flex-direction: row;
+    margin: 12px 15px; 
+
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
@@ -103,4 +112,5 @@
 
 .profile{
     padding: 20px 20px;
+    
 }
