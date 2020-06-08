@@ -36,3 +36,35 @@
     text-align: center;
     
 }
+
+.poke-table{
+    border-collapse: collapse;
+    margin:25px, 0;
+    min-width: 75%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.poke-table thead tr{
+    background-color: teal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.poke-table th, td{
+    padding: 12px 15px;
+    text-align: center;
+
+}
+
+.poke-table tbody tr{
+    border-bottom: 1px solid teal;
+}
+
+.poke-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
